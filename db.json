@@ -1,0 +1,101 @@
+{
+  "courses": [
+    {
+      "id": 3,
+      "courseName": "chemistry",
+      "agenda": "saefs",
+      "tutor": "efsf",
+      "description": "sef",
+      "price": "12345"
+    }
+  ],
+  "user": [
+    {
+      "id": 1,
+      "username": "afg",
+      "email": "canxwangdi.tijtech@gmail.com",
+      "password": "d",
+      "cPassword": "d"
+    },
+    {
+      "id": 2,
+      "username": "",
+      "email": "",
+      "password": "",
+      "cPassword": ""
+    },
+    {
+      "id": 3,
+      "username": "df",
+      "email": "sd",
+      "password": "asd",
+      "cPassword": "asd"
+    },
+    {
+      "id": 4,
+      "username": "",
+      "email": "",
+      "password": "",
+      "cPassword": ""
+    },
+    {
+      "id": 5,
+      "username": "asdfgh",
+      "email": "asdfgh",
+      "password": "sdfg",
+      "cPassword": ""
+    },
+    {
+      "id": 6,
+      "username": "",
+      "email": "",
+      "password": "",
+      "cPassword": ""
+    },
+    {
+      "id": 7,
+      "username": "asd",
+      "email": "sdf",
+      "password": "asf",
+      "cPassword": "sf"
+    },
+    {
+      "id": 8,
+      "username": "ss",
+      "email": "ss",
+      "password": "ss",
+      "cPassword": "ss"
+    },
+    {
+      "id": 9,
+      "username": "",
+      "email": "",
+      "password": "",
+      "cPassword": ""
+    },
+    {
+      "id": 10,
+      "username": "abbu",
+      "email": "abbu@gmail.com",
+      "password": "abbu",
+      "cPassword": "abbu"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

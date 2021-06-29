@@ -1,0 +1,21 @@
+h1 {
+  text-align: center;
+}
+label {
+  text-align: left;
+}
+.btn {
+  margin-left: 50%;
+}
+.card {
+  width: 50%;
+  background-color: aquamarine;
+  margin-left: 25%;
+}
+.form-control {
+  margin-left: 5%;
+  width: 110%;
+}
+.control-label {
+  margin-left: 5%;
+}

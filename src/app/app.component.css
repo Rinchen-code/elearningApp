@@ -1,0 +1,9 @@
+.hImage {
+  background-image: url("../assets/home.jpg");
+  background-size: 780px;
+  width: 100%;
+  height: 500%;
+  margin-top: 0%;
+  margin-left: 0%;
+  position: fixed;
+}
