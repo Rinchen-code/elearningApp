@@ -16,12 +16,12 @@ export class UserListingComponent implements OnInit {
   }
 
   getUsers() {
-    this.adminService.getUsers().subscribe( responseData => { debugger;
+    this.adminService.getUsers().subscribe( responseData => {
       this.userlist = responseData;
     })
   }
 
-  acceptUser(user) { debugger;
+  acceptUser(user) {
     user.loginPermission = true;
     this.adminService.updateUser(user).subscribe( res => {
      alert('User approved Successfully.')

@@ -1,1 +1,26 @@
 <app-user></app-user>
+
+
+<div class="container">
+  <div *ngFor="let course of coursesList">
+    <ul class="list-group-item mt-2">
+
+      <li>
+        <div class="row ">
+          <div class="col">
+            <img [src]="course.imageUrl" width="150" height="150">
+          </div>
+          <div class="col-md-8">
+            <h3>{{ course.courseName}}</h3>
+            <h5>{{ course.agenda}}</h5>
+            <h5>{{ course.tutor}}</h5>
+            <h5>Discription</h5>
+            <p>{{course.description}}</p>
+            <p>Nu.{{ course.price}}</p>
+
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -63,8 +63,10 @@
     <pre></pre>
     <div class="form-group">
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-primary" [disabled]="courseForm.invalid" (click)="addCourse()" >Add Course</button><br>
+        <button type="submit" class="btn btn-primary" *ngIf="!edit" [disabled]="courseForm.invalid" (click)="addCourse()" >Add Course</button><br>
         <pre></pre>
+        <button type="submit" class="btn btn-primary" *ngIf="edit" (click)="EditCourse()" >Edit Course</button><br>
+
       </div>
     </div>
   </form>

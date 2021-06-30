@@ -1,7 +1,7 @@
 <app-admin></app-admin>
 
 <div class="container">
-  <div *ngFor="let course of courseList">
+  <div *ngFor="let course of courseList; let i = index;">
     <ul class="list-group-item mt-2">
 
       <li>
@@ -19,8 +19,8 @@
 
           </div>
           <div class="col mt-4" style="width: 10000;">
-            <button type="button" class="btn btn-outline-success mt-2">Edit</button><br>
-            <button type="button" class="btn btn-outline-danger mt-3" (click)="removeCourse(course.id)">Remove</button>
+            <button type="button" class="btn btn-outline-success mt-2" (click)="editCourse(course)">Edit</button><br>
+            <button type="button" class="btn btn-outline-danger mt-3" (click)="removeCourse(course.id, i)">Remove</button>
           </div>
         </div>
       </li>

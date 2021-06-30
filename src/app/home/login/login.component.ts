@@ -28,8 +28,8 @@ export class LoginComponent implements OnInit {
 
   compareUserLogin() {
     this.homeService.getUsers().subscribe(responseData => {
-      const emailValue = this.loginForm.get('email').value;
-      const passwordValue = this.loginForm.get('password').value;
+      const emailValue = this.loginForm.get('email').value; // admin@gmail.com
+      const passwordValue = this.loginForm.get('password').value; //admin1234
       const user = responseData.filter(vo => vo.password === passwordValue && vo.email === emailValue);
       if(user && user[0]) {
         if(user[0].loginPermission) {

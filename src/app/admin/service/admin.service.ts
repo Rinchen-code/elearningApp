@@ -21,11 +21,19 @@ export class AdminService {
     return this.httpClient.post(this.coursesUrl, courses);
   }
 
+  updateCourses(courses) {
+    return this.httpClient.put(`${this.coursesUrl}/${courses.id}`, courses)
+  }
+
   getCourses() {
     return this.httpClient.get(this.coursesUrl);
   }
 
-  deleteCourse(ids) {
-    return this.httpClient.delete(`${this.coursesUrl}`, ids)
+  getOneCourse(id) {
+    return this.httpClient.get(`${this.coursesUrl}/${id}`)
+  }
+
+  deleteCourse(id) {
+    return this.httpClient.delete(`${this.coursesUrl}/${id}`)
   }
 }

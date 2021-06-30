@@ -1,51 +1,5 @@
 {
-  "courses": [
-    {
-      "id": 4,
-      "courseName": "asdfa",
-      "agenda": "asdf",
-      "imageUrl": "asdfa",
-      "tutor": "asfd",
-      "description": "asf",
-      "price": "12"
-    },
-    {
-      "id": 5,
-      "courseName": "adf",
-      "agenda": "af",
-      "imageUrl": "asdf",
-      "tutor": "asdf",
-      "description": "adsf",
-      "price": "1"
-    },
-    {
-      "id": 6,
-      "courseName": "asdf",
-      "agenda": "asdf",
-      "imageUrl": "asf",
-      "tutor": "asdf",
-      "description": "asfd",
-      "price": "af"
-    },
-    {
-      "id": 7,
-      "courseName": "adf",
-      "agenda": "asdf",
-      "imageUrl": "sfd",
-      "tutor": "asdf",
-      "description": "asdf",
-      "price": "asdf"
-    },
-    {
-      "id": 8,
-      "courseName": "asdfa",
-      "agenda": "asdf",
-      "imageUrl": "asdf",
-      "tutor": "asdf",
-      "description": "asdf",
-      "price": "asdf"
-    }
-  ],
+  "courses": [],
   "users": [
     {
       "id": 1,
@@ -63,7 +17,7 @@
       "password": "a",
       "cPassword": "a",
       "role": "user",
-      "loginPermission": false
+      "loginPermission": true
     },
     {
       "id": 3,
@@ -105,6 +59,15 @@
       "id": 7,
       "username": "jklkj",
       "email": "af",
+      "password": "asdf",
+      "cPassword": "asdf",
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 8,
+      "username": "asdf",
+      "email": "asdf",
       "password": "asdf",
       "cPassword": "asdf",
       "role": "user",
