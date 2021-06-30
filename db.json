@@ -1,101 +1,114 @@
 {
   "courses": [
     {
-      "id": 3,
-      "courseName": "chemistry",
-      "agenda": "saefs",
-      "tutor": "efsf",
-      "description": "sef",
-      "price": "12345"
-    }
-  ],
-  "user": [
-    {
-      "id": 1,
-      "username": "afg",
-      "email": "canxwangdi.tijtech@gmail.com",
-      "password": "d",
-      "cPassword": "d"
-    },
-    {
-      "id": 2,
-      "username": "",
-      "email": "",
-      "password": "",
-      "cPassword": ""
-    },
-    {
-      "id": 3,
-      "username": "df",
-      "email": "sd",
-      "password": "asd",
-      "cPassword": "asd"
-    },
-    {
       "id": 4,
-      "username": "",
-      "email": "",
-      "password": "",
-      "cPassword": ""
+      "courseName": "asdfa",
+      "agenda": "asdf",
+      "imageUrl": "asdfa",
+      "tutor": "asfd",
+      "description": "asf",
+      "price": "12"
     },
     {
       "id": 5,
-      "username": "asdfgh",
-      "email": "asdfgh",
-      "password": "sdfg",
-      "cPassword": ""
+      "courseName": "adf",
+      "agenda": "af",
+      "imageUrl": "asdf",
+      "tutor": "asdf",
+      "description": "adsf",
+      "price": "1"
     },
     {
       "id": 6,
-      "username": "",
-      "email": "",
-      "password": "",
-      "cPassword": ""
+      "courseName": "asdf",
+      "agenda": "asdf",
+      "imageUrl": "asf",
+      "tutor": "asdf",
+      "description": "asfd",
+      "price": "af"
     },
     {
       "id": 7,
-      "username": "asd",
-      "email": "sdf",
-      "password": "asf",
-      "cPassword": "sf"
+      "courseName": "adf",
+      "agenda": "asdf",
+      "imageUrl": "sfd",
+      "tutor": "asdf",
+      "description": "asdf",
+      "price": "asdf"
     },
     {
       "id": 8,
-      "username": "ss",
-      "email": "ss",
-      "password": "ss",
-      "cPassword": "ss"
-    },
-    {
-      "id": 9,
-      "username": "",
-      "email": "",
-      "password": "",
-      "cPassword": ""
-    },
-    {
-      "id": 10,
-      "username": "abbu",
-      "email": "abbu@gmail.com",
-      "password": "abbu",
-      "cPassword": "abbu"
+      "courseName": "asdfa",
+      "agenda": "asdf",
+      "imageUrl": "asdf",
+      "tutor": "asdf",
+      "description": "asdf",
+      "price": "asdf"
     }
   ],
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "cPassword": "admin123",
+      "role": "admin",
+      "loginPermission": true
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "username": "a",
+      "email": "a@gmail.com",
+      "password": "a",
+      "cPassword": "a",
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 3,
+      "username": null,
+      "email": null,
+      "password": null,
+      "cPassword": null,
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 4,
+      "username": null,
+      "email": null,
+      "password": null,
+      "cPassword": null,
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 5,
+      "username": "lkjl",
+      "email": "fasdf",
+      "password": "asf",
+      "cPassword": "asdf",
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 6,
+      "username": "asdf",
+      "email": "asdfasdf",
+      "password": "asdf",
+      "cPassword": "asdf",
+      "role": "user",
+      "loginPermission": false
+    },
+    {
+      "id": 7,
+      "username": "jklkj",
+      "email": "af",
+      "password": "asdf",
+      "cPassword": "asdf",
+      "role": "user",
+      "loginPermission": false
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

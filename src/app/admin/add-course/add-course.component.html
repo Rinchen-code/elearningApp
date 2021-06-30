@@ -1,0 +1,71 @@
+<app-admin></app-admin>
+<h1>AddCourse</h1>
+<div class="container">
+  <form class="form-horizontal" [formGroup]="courseForm" >
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="courseName">Course Name</label>
+      <div class="col-sm-10">
+        <input  class="form-control" formControlName="courseName" id="courseName" placeholder="Course Name">
+      </div>
+      <mat-error *ngIf="courseForm.get('courseName')?.invalid && courseForm.get('courseName')?.touched">
+        <span> {{'This courseName field is required.'}} </span>
+      </mat-error>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="agenda">Agenda</label>
+      <div class="col-sm-10">
+        <input class="form-control" formControlName="agenda" id="agenda" placeholder="Agenda">
+      </div>
+      <mat-error *ngIf="courseForm.get('agenda')?.invalid && courseForm.get('agenda')?.touched">
+        <span> {{'This agenda field is required.'}} </span>
+      </mat-error>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="image">Image URL</label>
+      <div class="col-sm-10">
+        <input class="form-control" formControlName="imageUrl" id="image" placeholder="Image URL">
+      </div>
+      <mat-error *ngIf="courseForm.get('imageUrl')?.invalid && courseForm.get('imageUrl')?.touched">
+        <span> {{'This imageUrl field is required.'}} </span>
+      </mat-error>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="tutor">Tutor Name</label>
+      <div class="col-sm-10">
+        <input class="form-control" formControlName="tutor"id="tutor" placeholder="Tutor Name">
+      </div>
+    </div>
+    <pre></pre>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="description">Description</label>
+      <div class="col-sm-10">
+        <input class="form-control" formControlName="description"id="description" placeholder="Description">
+      </div>
+      <mat-error *ngIf="courseForm.get('description')?.invalid && courseForm.get('description')?.touched">
+        <span> {{'This description field is required.'}} </span>
+      </mat-error>
+    </div>
+    <pre></pre>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2 col-sm-3" for="price">Price</label>
+      <div class="col-sm-10">
+        <input class="form-control" formControlName="price"id="price" placeholder="Price">
+      </div>
+      <mat-error *ngIf="courseForm.get('price')?.invalid && courseForm.get('price')?.touched">
+        <span> {{'This price field is required.'}} </span>
+      </mat-error>
+    </div>
+    <pre></pre>
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary" [disabled]="courseForm.invalid" (click)="addCourse()" >Add Course</button><br>
+        <pre></pre>
+      </div>
+    </div>
+  </form>
+</div>

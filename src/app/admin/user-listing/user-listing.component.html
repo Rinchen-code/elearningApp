@@ -1,0 +1,29 @@
+<app-admin></app-admin>
+
+<h3>Admin Dashboard</h3>
+<table class="table">
+  <thead class="thead-dark">
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">User Name</th>
+    <th scope="col">Email id</th>
+    <th scope="col">password</th>
+    <th scope="col">Confirm password</th>
+    <th></th>
+  </tr>
+  </thead>
+  <tbody *ngFor="let data of userlist">
+  <tr *ngIf="data.role === 'user'">
+    <th scope="row">{{data.id}}</th>
+    <td>{{data.userName}}</td>
+    <td>{{data.email}}</td>
+    <td>{{data.password}}</td>
+    <td>{{data.cPassword}}</td>
+    <td>
+      <button class="btn btn-primary" [disabled]="data.loginPermission" (click)="acceptUser(data)">Accept</button>
+      <pre></pre>
+      <button class="btn btn-outline-danger" [disabled]="!data.loginPermission" (click)="declineUser(data)">Decline</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
